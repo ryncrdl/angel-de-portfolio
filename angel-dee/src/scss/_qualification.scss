@@ -1,0 +1,168 @@
+.qualification{
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  
+  flex-direction: column;
+  align-items: center;
+  background: #000;
+
+  nav, div{
+    align-self: flex-start;
+  }
+  @media (max-width: 1280px) {
+		padding: 0rem 4rem;
+	}
+
+  .btns-container {
+    white-space: nowrap;
+  }
+
+  button{
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    color: gray;
+  }
+
+  button:hover{
+    background: gray;
+    color: white;
+  }
+
+  button.active{
+    background: gray;
+    color: white;
+   
+  }
+}
+
+.qualification-container{
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .w-96 {
+    width: 24rem;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .text-black {
+    opacity: 1;
+    color: rgb(0 0 0 / 1);
+  }
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .text-gray-500 {
+    opacity: 1;
+    color: rgb(107 114 128 / 1);
+  }
+  .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.pr-10 {
+  padding-right: 2.5rem;
+}.w-12 {
+  width: 3rem;
+}
+@media (min-width: 1024px) {
+  .lg\:w-5 {
+    width: 1.25rem;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .pl-10 {
+    padding-left: 2.5rem;
+  }
+   .max-w-7xl {
+  max-width: 80rem;
+} 
+.mt-20 {
+  margin-top: 5rem;
+}
+.f-gray{
+  color: rgb(107 114 128 / 1);
+  font-weight: 500;
+}
+
+}
+
+}
+
+.progress-journey {
+    margin-top: 2rem;
+
+    ul.journey {
+      height: 300px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      justify-content: space-between;
+      overflow: hidden;
+      li {
+        // dots
+        background: $primary-color;
+        border-radius: 100px;
+        width: 15px;
+        height: 15px;
+        z-index: 1;
+        position: relative;
+  
+        &::after {
+          // line
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 5px;
+          background: $primary-color;
+          width: 5px;
+          height: 100vh;
+          z-index: -1;
+        }
+      }
+    }
+  
+    ul.journey-description {
+      // height: 300px;
+      list-style: none;
+      padding: 0;
+      position: relative;
+      justify-content: space-between;
+      overflow: hidden;
+      margin: 0.5rem;
+      li {
+        transition: all 0.2s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }

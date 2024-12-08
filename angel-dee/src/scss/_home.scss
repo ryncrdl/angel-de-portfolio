@@ -1,0 +1,343 @@
+/* Start About Us Area css
+============================================================================================ */
+.about_area {
+	position: relative;
+	background: #000000;
+	.main_title {
+		margin-bottom: 0px;
+		p {
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+	}
+	.primary_btn {
+		margin-top: 20px;
+	}
+	.about_img {
+		
+
+		img{
+			width: 100%;
+		}
+	
+		@media (max-width: 1480px) {
+			right: 0;
+			
+			img {	
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		@media (max-width: 991px) {
+			display: none;
+		}
+	}
+}
+/* End About Us Area css
+============================================================================================ */
+
+/* Start Barand Area css
+============================================================================================ */
+.brand_area {
+	padding-bottom: 170px;
+	@media (max-width: 1199px) {
+		padding-bottom: 80px;
+	}
+}
+/* End Barand Area css
+============================================================================================ */
+
+/* Start Features Area css
+============================================================================================ */
+.skills_area {
+	flex-direction: row;
+	padding-bottom: 170px;
+	margin-top: 10rem;
+	@media (max-width: 1199px) {
+		padding-bottom: 50px;
+	}
+}
+.skill_inner{
+	display: flex;
+	justify-content: center;
+	gap: 2rem ;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 1280px) {
+	.skill_inner{
+		flex-wrap: nowrap;	
+	}
+	
+}
+
+.skill_item {
+	padding: 45px 25px;
+	text-align: center;
+	background: #f9f9fd;
+	cursor: default;
+	flex: 1 1 22rem;
+	
+	@include transition;
+	.icon {
+		margin-bottom: 35px;
+	}
+	h4 {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	&:hover {
+		box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+		background: #fff;
+	}
+
+	.skills {
+		display: flex;
+		flex-wrap: wrap;
+		justify-self: center;
+		gap: 1rem;
+		margin: 2rem 0rem;
+		justify-content: center;
+		@include transition;
+		
+	.skill {
+		float: left;
+		flex-grow: 1;
+		padding: 0.5rem 1rem;
+		max-width: 10rem;
+		img{
+			width: 2.5rem;
+			aspect-ratio: 1;
+			margin-top: 0.5rem;
+			
+		}
+		span{
+			white-space: nowrap;
+		}
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.5rem;
+			color: #fff;
+			font-family: $title-font;
+			font-weight: 500;
+			font-size: 12px;
+			outline: none !important;
+			text-transform: uppercase;
+			border-radius: 5px;
+			background-origin: border-box;
+			background-clip: content-box, border-box;
+			background-image: linear-gradient(to right, $primary-color 0%, $primary-color2 100%),
+				radial-gradient(circle at top left, $primary-color, $primary-color2);
+			border: double 2px transparent;
+			box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+			&:hover {
+				background-image: linear-gradient(#ffffff, #ffffff),
+					radial-gradient(circle at top left, $primary-color, $primary-color2);
+				border: 2px solid $primary-color2;
+				color: #222222;
+				box-shadow: none;
+				background-clip: border-box;
+			}
+		}
+	}
+}
+
+/* End Features Area css
+============================================================================================ */
+
+/* Start Portfolio Area css
+============================================================================================ */
+.portfolio_area {
+	padding-bottom: 120px;
+	@media (max-width: 991px) {
+		padding-bottom: 50px;
+	}
+	.filters {
+		ul {
+			padding-left: 0;
+			margin-bottom: 50px;
+			@media (max-width: 991px) {
+				margin-bottom: 20px;
+			}
+			li {
+				display: inline-block;
+				margin-right: 50px;
+				font-size: 14px;
+				font-weight: 500;
+				text-transform: uppercase;
+				color: #222222;
+				cursor: pointer;
+				@include transition();
+				&:hover,
+				&.active {
+					color: $primary-color2;
+				}
+				@media (max-width: 767px) {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+}
+.portfolio_box {
+	margin-bottom: 5rem;
+	@media (max-width: 767px) {
+		margin-bottom: 35px;
+	}
+	.short_info {
+		margin-top: 30px;
+		
+		@media (max-width: 767px) {
+			margin-top: 20px;
+		}
+		h4 {
+			text-transform: uppercase;
+			font-size: 20px;
+		
+			a {
+				color: $title-color;
+			}
+		}
+		p{
+			padding: 0.5rem 0rem;
+			padding-bottom: 1rem;
+		}
+	}
+
+	
+}
+.single_portfolio {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	.overlay {
+		@include transition();
+	}
+	.icon {
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		@include transform(translate(-50%, -50%));
+		opacity: 0;
+		visibility: hidden;
+		@include transition();
+		span {
+			font-size: 100px;
+			display: inline-block;
+			@include transform(rotate(135deg));
+			color: #ffffff;
+			cursor: pointer;
+		}
+	}
+	&:hover{
+		.overlay {
+			background: rgba(77, 87, 222, 0.5);
+		}
+		.icon {
+			opacity: 1;
+			visibility: visible;
+			top: 50%;
+			left: 50%;
+		}
+	}
+}
+.techs{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	.skill-container{
+		display: flex;
+		align-items: center;
+		background: #eee;
+		gap: 0.5rem;
+		padding: 0.5rem 1rem;
+		img{
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+		p{
+			color: $text-color;
+			font-size: 1rem;
+		}
+		&:hover{
+			cursor: default;
+		}
+	}
+}
+
+
+
+.portfolio_details_inner {
+	.row {
+		margin-bottom: 65px;
+		display: flex;	
+		justify-content: flex-start !important;
+	
+		@media (max-width: 480px) {
+			margin-bottom: 30px;
+		}
+		.all{
+			animation: popUp 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000) forwards;
+		}
+	}
+
+	@keyframes popUp {
+		0%{
+			transform: scale(0);
+		}	
+		
+		100% {
+			transform: scale(1);
+		}
+	  }
+
+	p {
+		margin-bottom: 30px;
+		font-size: 14px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+	.portfolio_right_text {
+		
+		margin-top: 50px;
+		h4 {
+			font-size: 20px;
+			
+		}
+		p {
+			margin-bottom: 25px;
+			font-size: 14px;
+		}
+		.list {
+			li {
+				margin-bottom: 7px;
+				span {
+					font-family: $title-font;
+					color: #000000;
+					font-size: 16px;
+					font-weight: 500;
+					width: 97px;
+					display: inline-block;
+				}
+				font-weight: normal;
+				font-size: 14px;
+				&:last-child {
+					margin-bottom: 0px;
+				}
+				i {
+					color: #f1cd09;
+				}
+			}
+		}
+	}
+}
+/* End Portfolio Area css
+============================================================================================ */
+

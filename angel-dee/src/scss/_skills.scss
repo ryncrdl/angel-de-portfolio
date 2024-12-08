@@ -1,0 +1,87 @@
+.skills_area {
+  padding: 60px 0;
+  background-color: #000;
+  margin-top: 0rem;
+
+  .main_title {
+    h2 {
+      font-size: 2.5rem;
+      color: $primary-color;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: $text-color;
+    }
+  }
+
+  .frontend_skills, .backend_skills{
+    // width: 50%;
+    // max-width: 50%;
+    border-radius: 0.5rem;
+    flex-grow: 1;
+    h3{
+      color: $primary-color;
+      text-align: center;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      margin: 0rem 1rem;
+      border-bottom: 0.2rem solid $primary-color ;
+    }
+    background: white;
+  }
+
+  .skill_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  
+    .skill_item {
+      
+      border: 1px solid $primary-color;
+      margin: 1rem;
+      border-radius: 8px;
+      padding: 20px;
+      // text-align: center;
+      // max-width: 300px;
+      max-height: 400px; /* Ensures consistent height */
+      display: flex;
+      flex-direction: column; /* Align content vertically */
+      justify-content: space-between; /* Space out content evenly */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+
+      .title{
+        display: flex;
+        align-items: center;
+      } 
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      .icon {
+        max-width: 40px;
+      }
+      img{
+        margin: 0 !important;
+        margin-right: 1rem !important;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        color: #ff0066;
+        margin: 0rem !important;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #555;
+        text-align: left;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}

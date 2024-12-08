@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "title": "Dental Clinic",
+    "banner": "./assets/images/dental-web.png",
+    "description": "Dental Clinic offers dental clinic services, announcements, and information. Download the mobile app to schedule appointments conveniently.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg",
+        "label": "React JS"
+      },
+      {
+        "id": 2,
+        "icon": "https://static-00.iconduck.com/assets.00/node-js-icon-909x1024-ig4gm9k7.png",
+        "label": "Node JS"
+      },
+      {
+        "id": 3,
+        "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "label": "MongoDB"
+      }
+    ],
+    "category": "website",
+    "demo": "https://dental-clinic-web.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Dental  Management System",
+    "banner": "./assets/images/dental-desktop.png",
+    "description": "Dental  Management System efficiently manages patient information, appointments, doctor details, inventory, and various other features. It also includes the ability to review request appointments, patient accounts, and points.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png",
+        "label": "VB.Net"
+      },
+      {
+        "id": 2,
+        "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "label": "MongoDB"
+      }
+    ],
+    "category": "desktop",
+    "demo": "https://github.com/ryncrdl/DentalManagementSystem"
+  },
+  {
+    "id": 3,
+    "title": "Dental  Mobile App",
+    "banner": "./assets/images/dental-mobile.png",
+    "description": "Dental Mobile Application empowers clients to schedule appointments, processed seamlessly by our desktop application, ensuring efficient approval based on specified criteria.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png",
+        "label": "Java"
+      },
+      {
+        "id": 2,
+        "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "label": "MongoDB"
+      },
+      {
+        "id": 3,
+        "icon": "assets/icons/serverless.png",
+        "label": "Serverless Api"
+      },
+      {
+        "id": 4,
+        "icon": "https://semaphore.co/images/pages/index/semaphoraus_rex.png",
+        "label": "Semaphore"
+      }
+    ],
+    "category": "mobile",
+    "demo": "https://drive.google.com/file/d/1OYpYGoVLRyPZ0IK0xgL9Ytr6bce7KYw1/view?usp=sharing"
+  },
+
+  {
+    "id": 4,
+    "title": "SJ eServices",
+    "banner": "./assets/images/sj-eservices.png",
+    "description": "SJ eServices mobile application serves as a platform for requesting essential documents in Barangay San Jose, Montalban, Rizal, Philippines. I developed this application as part of a capstone project for my fellow batchmates.",
+    "technologies": [
+        {
+            "id": 1,
+            "icon": "https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png",
+            "label": "Java"
+        },
+        {
+            "id": 2,
+            "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+            "label": "MongoDB"
+        },
+        {
+            "id": 3,
+            "icon": "assets/icons/serverless.png",
+            "label": "Serverless Api"
+        },
+        {
+            "id": 4,
+            "icon": "https://semaphore.co/images/pages/index/semaphoraus_rex.png",
+            "label": "Semaphore"
+        }
+    ],
+    "category": "mobile",
+    "demo": "https://drive.google.com/file/d/1swaXKBYDq0NdyZbPpEssvrpSkYcVvbxk/view?usp=sharing"
+},
+
+  {
+    "id": 5,
+    "title": "Fresh Drop",
+    "banner": "./assets/images/fresh-drop.png",
+    "description": "Fresh Drop mobile application functions as a comprehensive platform for managing customer orders, tracking product stock levels, and monitoring sales for the Fresh-Drop market. I designed and developed this application as part of a capstone project for my fellow students in another school.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png",
+        "label": "Java"
+      },
+      {
+        "id": 2,
+        "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "label": "MongoDB"
+      },
+      {
+        "id": 3,
+        "icon": "assets/icons/serverless.png",
+        "label": "Serverless Api"
+      }
+    ],
+    "category": "mobile",
+    "demo": "https://drive.google.com/file/d/1QxYzl3lnCgCT_5m_FIuIiwrGAofi5BFS/view?usp=sharing"
+  },
+  {
+    "id": 6,
+    "title": "Laundry Online",
+    "banner": "./assets/images/laundry-web.png",
+    "description": "Laundry Online promotes its laundry services and offers a downloadable mobile application for users. I developed this application as a part of a capstone project for my fellow batchmates.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg",
+        "label": "React JS"
+      },
+      {
+        "id": 2,
+        "icon": "https://static-00.iconduck.com/assets.00/node-js-icon-909x1024-ig4gm9k7.png",
+        "label": "Node JS"
+      }
+    ],
+    "category": "website",
+    "demo": "https://laundry-online-web.vercel.app"
+  },
+  {
+    "id": 7,
+    "title": "Laundry Mobile App",
+    "banner": "./assets/images/laundry-mobile.png",
+    "description": "Laundry mobile app is designed for users to set their laundry schedule and check the cost of their laundry. I developed this application as part of a capstone project for my fellow batchmates.",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png",
+        "label": "Java"
+      },
+      {
+        "id": 2,
+        "icon": "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "label": "MongoDB"
+      },
+      {
+        "id": 3,
+        "icon": "assets/icons/serverless.png",
+        "label": "Serverless Api"
+      }
+    ],
+    "category": "mobile",
+    "demo": "https://drive.google.com/file/d/1WR4tOnDT0oV10reUjFbDZD2KSMduUgRc/view?usp=drive_link"
+  }
+]

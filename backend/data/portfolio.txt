@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "title": "Memory Game",
+        "description": "Developed an interactive memory game where players match pairs of cards. The game challenges the player's concentration and recall abilities, providing immediate feedback for correct or incorrect matches. Features include a responsive design for seamless gameplay across devices, a scoring system, and timer functionality to enhance engagement.",
+        "key_features": "- Flip animation for cards. - Tracks player performance (score and time). - Difficulty levels (e.g., Easy, Medium, Hard). - Compatible with both desktop and mobile platforms.",
+        "image": ".\/uploads\/e0836665-179d-4519-a2df-5d1f1f737543.jpg"
+    }
+]
